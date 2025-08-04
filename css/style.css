@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-family: var(--font-family);
+    --primary-color: #000000;
+    --secondary-color: #333;
+    --font-family: "poppins", sans-serif;
+}
+
+
+/* header--section */
+.header {
+    position: relative;
+    display: flex;
+    justify-content: center; /* keep nav centered */
+    align-items: center;
+    padding: 30px;
+}
+.logo {
+    position: absolute;
+    left: 30px;
+}
+
+.nav-list{
+      display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-link{
+    padding:30px;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+

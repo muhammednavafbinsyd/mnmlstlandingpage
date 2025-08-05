@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     overflow: hidden;
 }
+
 :root {
     font-family: var(--font-family);
     --primary-color: #000000;
@@ -46,7 +47,7 @@ body{
 .hero-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .hero-contents {
@@ -95,6 +96,8 @@ i {
     cursor: pointer;
     transition: transform 0.3s ease;
 }
+
+/* media query */
 
 @media screen and (max-width: 768px) {
     .social-icons {
